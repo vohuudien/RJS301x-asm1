@@ -1,0 +1,14 @@
+.hotelCard img {
+  width: 220px;
+  height: 200px;
+  border-radius: 15px 15px 0 0;
+  object-fit: cover;
+}
+
+.text h2 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.text p {
+font-size: 14px;
+}

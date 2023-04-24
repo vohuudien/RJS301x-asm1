@@ -1,0 +1,97 @@
+/* ---------Phần chính của web detail-------- */
+.detailPage{
+background-color: white;
+padding: 40px 0;
+}
+.detailPage .container{
+position: relative;
+padding: 0;
+
+}
+/* -----Phần Thông tin chính của hotel như tên, khoảng cách đến trung tâm,..------ */
+.detailTop button{
+position: absolute;
+top: 10px;
+right: 0;
+padding: 10px 20px;
+border: none;
+background-color: #0071c2;
+color: white;
+border-radius: 5px;
+cursor: pointer;
+font-weight: 600;
+}
+.detailTop h1{
+font-size: 24px;
+margin-bottom: 10px;
+}
+.detailTop h5{
+font-size: 16px;
+font-weight: 600;
+color: green;
+}
+.detailTop p{
+  font-size: 16px;
+  font-weight: 600;
+  color: #0071c2;
+  margin-bottom: 10px;
+}
+.detailTop span{
+font-size: 14px;
+display: flex;
+align-items: center;
+gap:10px;
+margin-bottom: 10px;
+}
+/* -----Phần nhóm các hình ảnh------ */
+.detailMid{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+gap: 10px;
+margin: 20px 0;
+}
+.detailMid .itemImage img{
+width: 100%;
+height: 100%;
+}
+/* ----Phần thông tin thêm----- */
+.detailBottom {
+display: grid;
+grid-template-columns: 1fr 25%;
+gap: 20px;
+}
+/* ----Phần mô tả---- */
+.detailDescription h1{
+font-size: 24px;
+margin-bottom: 15px;
+}
+/* ----Phần hot-deal---- */
+.detailDeal{
+padding: 20px;
+background-color: #ebf3ff;
+display: flex;
+flex-direction: column;
+gap: 15px;
+}
+.detailDeal h1{
+font-size: 20px;
+color: #555555;
+
+}
+.detailDeal p{
+font-size: 14px;
+
+}
+.detailDeal span{
+font-weight: normal;
+}
+.detailDeal button{
+  padding: 10px 20px;
+  border: none;
+  background-color: #0071c2;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+}

@@ -1,0 +1,36 @@
+
+#myForm{
+display: flex;
+flex-direction: column;
+padding: 10px;
+background-color: #febb02;
+border-radius: 10px;
+row-gap: 15px;
+}
+.option{
+display: flex;
+flex-direction: column;
+row-gap: 10px;
+padding: 0 10px;
+}
+.optionItem {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.optionItem input {
+width: 20%;
+padding: 3px;
+}
+
+form button,form input {
+  padding: 10px;
+  border: none;
+  }
+form button{
+background-color: #0071c2;
+color: white;
+}  
+form h1, form p{
+color: #555653;
+}

@@ -1,0 +1,8 @@
+.itemFooter a {
+  text-decoration: none;
+  color: #003580;
+  font-size: 14px;
+}
+.itemFooter {
+  margin-bottom: 5px;
+}

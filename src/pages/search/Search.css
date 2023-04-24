@@ -1,0 +1,12 @@
+.searchGroup{
+background-color: white;
+padding-top: 40px;
+}
+.searchGroup .container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.searchPopup{
+max-width: 30%;
+}

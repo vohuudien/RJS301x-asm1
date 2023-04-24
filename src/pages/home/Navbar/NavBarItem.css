@@ -1,0 +1,19 @@
+.navbarItem {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  color: white;
+  padding: 7px;
+  border-radius: 20px;
+}
+
+.navbarItem:hover,
+.navbarItem:active {
+  color: #003580;
+  background-color: white;
+  cursor: pointer;
+}
+.navbarItem.active {
+  border: 1px solid white;
+  border-radius: 20px;
+}

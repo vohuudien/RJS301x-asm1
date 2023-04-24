@@ -1,0 +1,64 @@
+
+.homePage{
+  background-color: #003580;
+}
+.container{
+  padding-top: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+  
+}
+/* ---------Phần Navbar-------- */
+.navbar {
+  position: relative;
+}
+.navbar h1 {
+  font-size: 26px;
+  color: white;
+}
+.navGroupButton button {
+  background-color: white;
+  color: #003580;
+  padding: 4px 7px;
+  border: none;
+  border-radius: 2px;
+}
+.navGroupButton button:hover {
+  box-shadow: 2px 0px 12px white;
+  cursor: pointer;
+}
+.navGroupButton {
+  position: absolute;
+  top: 5vh;
+  right: 0;
+  display: flex;
+  gap: 10px;
+}
+.navGroupItem {
+  display: flex;
+  gap: 30px;
+  padding: 20px 0;
+}
+/* ---------Phần Header-------- */
+.header {
+  color: white;
+  min-height: 200px;
+  position: relative;
+}
+/* ---------Phần danh sách trên trang Homepage--------- */
+.groupCards{
+background-color: white;
+padding-top: 40px;
+padding-bottom: 40px;
+}
+.groupCards h2{
+font-size: 20px;
+}
+.placeCards, .typeHotel, .listHotel{
+display: flex;
+justify-content: space-between;
+}
+/* ---------Phần Footer cho Homepage */
+.footer{
+background-color: white;
+}

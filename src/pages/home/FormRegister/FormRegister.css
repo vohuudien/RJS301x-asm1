@@ -1,0 +1,32 @@
+.groupRegister{
+padding: 50px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+row-gap: 20px;
+}
+.groupRegister h2{
+font-size: 26px;
+color: white;
+}
+.groupRegister p {
+color: white;
+font-weight: lighter;
+font-size: 14px;
+}
+.groupRegister input{
+ padding: 10px;
+ min-width: 250px;
+ border-radius: 5px;
+ margin-right: 10px ;
+ border: none;
+}
+.groupRegister button{
+  padding: 10px;
+  border: none;
+  background-color: #0071c2;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
